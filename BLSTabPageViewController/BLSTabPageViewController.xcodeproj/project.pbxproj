@@ -12,6 +12,9 @@
 		E10022951CFEDF3300EDEEB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E10022941CFEDF3300EDEEB5 /* Assets.xcassets */; };
 		E10022981CFEDF3300EDEEB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E10022961CFEDF3300EDEEB5 /* LaunchScreen.storyboard */; };
 		E10022A01CFEDFA800EDEEB5 /* BLSTabPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E100229F1CFEDFA800EDEEB5 /* BLSTabPageViewController.swift */; };
+		E1262CA51CFEED6500A4C8F4 /* BLSTabPageViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1262CA41CFEED6500A4C8F4 /* BLSTabPageViewControllerDelegate.swift */; };
+		E1262CA91CFEEEC800A4C8F4 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1262CA81CFEEEC800A4C8F4 /* CollectionViewCell.swift */; };
+		E1262CAF1CFF17D200A4C8F4 /* TestDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1262CAE1CFF17D200A4C8F4 /* TestDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		E10022971CFEDF3300EDEEB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E10022991CFEDF3300EDEEB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E100229F1CFEDFA800EDEEB5 /* BLSTabPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLSTabPageViewController.swift; sourceTree = "<group>"; };
+		E1262CA41CFEED6500A4C8F4 /* BLSTabPageViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLSTabPageViewControllerDelegate.swift; sourceTree = "<group>"; };
+		E1262CA81CFEEEC800A4C8F4 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CollectionViewCell.swift; path = ../CollectionViewCell.swift; sourceTree = "<group>"; };
+		E1262CAE1CFF17D200A4C8F4 /* TestDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,9 +61,12 @@
 			isa = PBXGroup;
 			children = (
 				E100228D1CFEDF3300EDEEB5 /* AppDelegate.swift */,
+				E1262CA81CFEEEC800A4C8F4 /* CollectionViewCell.swift */,
 				E100229F1CFEDFA800EDEEB5 /* BLSTabPageViewController.swift */,
-				E10022961CFEDF3300EDEEB5 /* LaunchScreen.storyboard */,
+				E1262CA41CFEED6500A4C8F4 /* BLSTabPageViewControllerDelegate.swift */,
+				E1262CAE1CFF17D200A4C8F4 /* TestDelegate.swift */,
 				E10022911CFEDF3300EDEEB5 /* Main.storyboard */,
+				E10022961CFEDF3300EDEEB5 /* LaunchScreen.storyboard */,
 				E10022941CFEDF3300EDEEB5 /* Assets.xcassets */,
 				E10022991CFEDF3300EDEEB5 /* Info.plist */,
 			);
@@ -135,8 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1262CA51CFEED6500A4C8F4 /* BLSTabPageViewControllerDelegate.swift in Sources */,
+				E1262CA91CFEEEC800A4C8F4 /* CollectionViewCell.swift in Sources */,
 				E100228E1CFEDF3300EDEEB5 /* AppDelegate.swift in Sources */,
 				E10022A01CFEDFA800EDEEB5 /* BLSTabPageViewController.swift in Sources */,
+				E1262CAF1CFF17D200A4C8F4 /* TestDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +298,7 @@
 				E100229E1CFEDF3300EDEEB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
